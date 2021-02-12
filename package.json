@@ -2,7 +2,13 @@
   "name": "zenn-template",
   "version": "1.0.0",
   "description": "A template for Zenn <-> GitHub conneciton",
-  "keywords": ["zenn", "template"],
+  "keywords": [
+    "zenn",
+    "template"
+  ],
   "author": "Takagi Kensuke <janus.wel.3@gmail.com>",
-  "license": "PUBLIC DOMAIN"
+  "license": "PUBLIC DOMAIN",
+  "dependencies": {
+    "zenn-cli": "^0.1.72"
+  }
 }
