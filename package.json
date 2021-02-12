@@ -8,9 +8,6 @@
   ],
   "author": "Takagi Kensuke <janus.wel.3@gmail.com>",
   "license": "PUBLIC DOMAIN",
-  "scripts": {
-    "init": "zenn init"
-  },
   "dependencies": {
     "zenn-cli": "^0.1.72"
   }
