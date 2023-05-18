@@ -1,0 +1,15 @@
+{
+  "rules": {
+    "preset-japanese": true,
+    "preset-ja-technical-writing": true,
+    "preset-ja-spacing": true
+  },
+  "filters": {
+    "allowlist": {
+      "allow": [
+        "/^:::+message .+$/",
+        "/^:::details .+$/"
+      ]
+    }
+  }
+}
