@@ -1,14 +1,22 @@
 {
   "name": "zenn-template",
-  "version": "1.0.0",
+  "author": "Takagi Kensuke <janus.wel.3@gmail.com>",
   "description": "A template for Zenn <-> GitHub conneciton",
+  "license": "Apache-2.0",
+  "version": "1.0.0",
   "keywords": [
     "zenn",
+    "blog",
+    "articles",
     "template"
   ],
-  "author": "Takagi Kensuke <janus.wel.3@gmail.com>",
-  "license": "PUBLIC DOMAIN",
-  "dependencies": {
-    "zenn-cli": "^0.1.72"
+  "scripts": {
+    "lint": "textlint **/*.md"
+  },
+  "engines": {
+    "node": "^18.0.0"
+  },
+  "devDependencies": {
+    "zenn-cli": "0.1.143"
   }
 }
